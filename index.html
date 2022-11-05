@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Rock Paper Scissors</title>
+    <link rel="stylesheet" href="css_gamerps.css">
+  </head>
+  <body>
+    <div class="splash-screen">
+      <h1 class="header">
+        <span class="message"> Welcome to the Rock Paper Scissors Game!</span>
+        <button class="startbutton" onclick="startgame()">Start Game</button>
+      </h1>
+    </div>
+    <div>
+      <header>
+        <h1>Rock Paper Scissors</h1>
+      </header>
+    </div>
+    <div> 
+      <h2 class="Results">Computer Choice: <span id="computer-choice"></span></h2>
+      <h2 class="Results">Your Choice: <span id="user-choice"></span></h2>
+      <h2 class="Results">Result: <span id="result"></span></h2>
+    </div>
+    <div> 
+      <h2 class="score-board">User Score: <span id ="userScore"></span></h2>
+      <h2 class="score-board">Computer Score: <span id ="computerScore"></span></h2>
+    </div>
+    <div> 
+      <button class="buttons" id="rock">Rock</button>
+      <button class="buttons" id="paper">Paper</button>
+      <button class="buttons" id="scissors">Scissors</button>
+    </div>
+    <div> 
+      <button class="buttons" onclick="switchScores()">Switch Scores</button>
+    </div>
+
+    <script src="javascript_gamerps.js" charset="utf-8"></script>
+  </body>
+</html>
